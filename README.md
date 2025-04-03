@@ -6,12 +6,13 @@ As a summary, a user should be able to view QR codes that have been created, cre
 _This project and scenario is hypothetical._
 
 ## Requirements
-- Utilize Vue 3 (Composition API) + TypeScript.
+- Utilize Vue 3 (Composition API), TypeScript, and Tailwind 3.
 - Include a hidden HTML element at the bottom of the page with the `id="clearstream-rocks"`.
+- Use all linting and static analysis tools.
 - Include backend tests. Frontend tests not required.
 
 ## Miscellaneous
-- You should not work on this project for more than eight hours. 
+- You should not work on this project for more than eight hours.
 - This application does not need authentication.
 - You will be compensated for your time doing this project if you are not hired.
 - Attention to detail is very important.
@@ -19,5 +20,5 @@ _This project and scenario is hypothetical._
 ## Submission
 - Clone this repository.
 - Create one PR with all of your code.
-- Include a brief demonstration video of your app and walk through your codebase and decision making.
+- Include a brief demonstration video of your app and walk through your codebase and decision-making process.
 - Invite @atoner595 and @trevorgehman as collaborators.

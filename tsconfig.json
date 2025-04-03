@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+  },
+  "include": ["resources/**/*"]
+}

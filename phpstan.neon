@@ -1,0 +1,16 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+rules:
+
+parameters:
+
+    paths:
+        - app/
+        - config/
+        - routes/
+        - database/factories/
+
+    level: 4
+
+    ignoreErrors:
