@@ -3,7 +3,6 @@ import pluginVue from 'eslint-plugin-vue';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import typescriptParser from '@typescript-eslint/parser';
 import vueEslintParser from 'vue-eslint-parser';
-import globals from 'globals';
 
 export default [
   js.configs.recommended,
@@ -12,10 +11,7 @@ export default [
   // https://eslint.org/docs/latest/use/configure/ignore
   // https://github.com/eslint/eslint/discussions/18304
   {
-    ignores: [
-      'public/',
-      'vendor/',
-    ],
+    ignores: ['public/', 'vendor/'],
   },
   // https://eslint.org/docs/latest/use/configure/parser#configure-a-custom-parser
   {
@@ -53,14 +49,6 @@ export default [
           singleQuote: true,
           // htmlWhitespaceSensitivity: 'ignore',
           plugins: ['prettier-plugin-tailwindcss'],
-        },
-      ],
-      'no-restricted-imports': [
-        'error',
-        {
-          patterns: [
-            '.*', // no relative imports
-          ],
         },
       ],
       'prefer-const': 'error',

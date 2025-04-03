@@ -1,5 +1,5 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import Dashboard from '../pages/Dashboard.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+import Dashboard from '../pages/Dashboard.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -15,6 +15,6 @@ const router = createRouter({
       component: () => import('../pages/QrCodes.vue'),
     },
   ],
-})
+});
 
-export default router
+export default router;
