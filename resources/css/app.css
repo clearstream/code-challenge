@@ -1,3 +1,72 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@source '../views/**/*.blade.php';
+@source '../js/**/*.{js,ts,vue}';
+
+@theme {
+  --font-sans: 'InterVariable', 'ui-sans-serif', 'system-ui', 'sans-serif',
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  --color-*: initial;
+  --color-current: currentColor;
+  --color-transparent: transparent;
+  --color-black: #000;
+  --color-white: #fff;
+
+  --color-blue-100: #f2f8ff;
+  --color-blue-200: #e4f1ff;
+  --color-blue-300: #c6e2ff;
+  --color-blue-400: #a3d2ff;
+  --color-blue-500: #75c0ff;
+  --color-blue-600: #1badff;
+  --color-blue-700: #189be4;
+  --color-blue-800: #1586c6;
+  --color-blue-900: #0d567f;
+  --color-blue-950: #072a3e;
+
+  --color-green-100: #f2f7f4;
+  --color-green-200: #e4efe8;
+  --color-green-300: #c6dfcf;
+  --color-green-400: #a2ccb3;
+  --color-green-500: #73b891;
+  --color-green-600: #12a264;
+  --color-green-700: #109159;
+  --color-green-800: #0e7d4d;
+  --color-green-900: #095132;
+  --color-green-950: #042818;
+
+  --color-yellow-100: #fef9f3;
+  --color-yellow-200: #fdf4e7;
+  --color-yellow-300: #fbe8cb;
+  --color-yellow-400: #fadcac;
+  --color-yellow-500: #f8cf85;
+  --color-yellow-600: #f6c14d;
+  --color-yellow-700: #dcad45;
+  --color-yellow-800: #bf953c;
+  --color-yellow-900: #7b6026;
+  --color-yellow-950: #3c2f13;
+
+  --color-red-100: #fef2f4;
+  --color-red-200: #fce5e8;
+  --color-red-300: #fac7ce;
+  --color-red-400: #f7a5b0;
+  --color-red-500: #f5788c;
+  --color-red-600: #f22b5a;
+  --color-red-700: #d82650;
+  --color-red-800: #bb2146;
+  --color-red-900: #79152d;
+  --color-red-950: #3b0b16;
+
+  --color-gray-100: #f4f5f8;
+  --color-gray-200: #e3e6ee;
+  --color-gray-300: #cdd1e0;
+  --color-gray-400: #a6adc9;
+  --color-gray-500: #7c83ab;
+  --color-gray-600: #575a7f;
+  --color-gray-700: #30304f;
+  --color-gray-800: #262640;
+  --color-gray-900: #191a2c;
+
+  --color-purple-400: #9785ff;
+  --color-purple-500: #7857ff;
+}
