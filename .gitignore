@@ -46,6 +46,8 @@ _ide_helper_models.php
 /.phpunit.cache
 
 ### Vite ###
+/public/build
+/public/hot
 vite-cert.pem
 vite-key.pem
 
